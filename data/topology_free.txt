@@ -1,0 +1,45 @@
+|molecule_name|color|fasta_fn|fasta_id|pdb_fn|chain|residue_range|pdb_offset|bead_size|em_residues_per_gaussian|rigid_body|super_rigid_body|chain_of_super_rigid_bodies|
+
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|GLP1R_z.pdb		|R|1,146		|0|1  |0  |1  |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|BEADS			|  |147,150	|0|1  |0  |    |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|GLP1R_z.pdb		|R|151,234	|0|1  |0  |1  |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|BEADS			|  |235,238	|0|1  |0  |    |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|GLP1R_z.pdb		|R|239,314	|0|1  |0  |1  |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|BEADS			|  |315,320	|0|1  |0  |    |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|GLP1R_z.pdb		|R|321,382	|0|1  |0  |1  |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|GLP1R_z.pdb		|R|383,400	|0|1  |0  |2  |100||
+|GLP1R	|blue		|humanglp1r.fasta|GLP1R	|BEADS			|  |401,END	|0|1  |0  |    |100||
+|GLP1	|red 		|humanglp1r.fasta|GLP1		|GLP1_z.pdb	   	|P|1,END 	        |0|1  |0  |1  |200||
+
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS	  	  	|  |1,10		|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|11,46   	|0|1  |0  |1  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |47,52	        |0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|53,58   	|0|1  |0  |3  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |59,87	        |0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|88,186   	|0|1  |0  |4  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |187,193	|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|194,248	|0|1  |0  |1  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |249,264	|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|265,278	|0|1  |0  |5  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |279,286	|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|287,292	|0|1  |0  |1  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |293,295	|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|296,303	|0|1  |0  |6  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |304,312	|0|1  |0  |    |300||
+|GA		|purple		|humanglp1r.fasta|GA		|GA_noGDP_z.pdb 	|A|313,391	|0|1  |0  |1  |300||
+|GA		|purple		|humanglp1r.fasta|GA		|BEADS		  	|  |392,END	|0|1  |0  |    |300||
+
+|GB		|orange		|humanglp1r.fasta|GB		|BEADS			|  |1,2		|0|1  |0  |	   |400||
+|GB		|orange		|humanglp1r.fasta|GB		|GB_z.pdb		|B|3,25	        |0|1  |0  |1  |400||
+|GB		|orange		|humanglp1r.fasta|GB		|BEADS			|  |26,29		|0|1  |0  |	   |400|| 
+|GB		|orange		|humanglp1r.fasta|GB		|GB_z.pdb		|B|30,32	        |0|1  |0  |7  |400||
+|GB		|orange		|humanglp1r.fasta|GB		|BEADS			|  |33,48		|0|1  |0  |	   |400|| 
+|GB		|orange		|humanglp1r.fasta|GB		|GB_z.pdb		|B|49,END        |0|1  |0  |1  |400||
+
+|GG		|cyan		|humanglp1r.fasta|GG		|BEADS			|  |1,6		|0|1  |0  |    |500||
+|GG		|cyan		|humanglp1r.fasta|GG		|GG_z.pdb		|G|7,45		|0|1  |0  |1  |500||
+|GG		|cyan		|humanglp1r.fasta|GG		|BEADS			|  |46,END	|0|1  |0  |    |500||
+
+|NB		|yellow		|humanglp1r.fasta|NB		|BEADS			|  |1,1	        |0|1  |0  |    |600||
+|NB		|yellow		|humanglp1r.fasta|NB		|NB_z.pdb		|N|2,127	        |0|1  |0  |1  |600||
+|NB		|yellow		|humanglp1r.fasta|NB		|BEADS			|  |128,END	|0|1  |0  |    |600||
