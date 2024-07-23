@@ -22,8 +22,8 @@ The distance cut-offs used here are generally accepted empirical values accordin
 
 conda create --no-default-packages -n myenv python=3.6 pymol
 source activate myenv 
-python ./residue_contact/residue_contact.py
-python ./residue_contact/aroma_count.py
+python residue_contact.py
+python aroma_count.py
 
 ```
 ### Compute buried surface area in the GLP-1R-Gs interface
@@ -44,6 +44,6 @@ We compute the surface area of GLP-1R-Gs interface, GLP-1R-Gs-ICL1 interface, GL
 ```Shell
 
 pip install freesasa
-python ./interface_area/compute_surface_area.py
+python compute_surface_area.py
 
 ```
